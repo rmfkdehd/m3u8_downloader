@@ -21,11 +21,11 @@ headers = {
 
 ###############################配置信息################################
 # m3u8链接批量输入文件(必须是utf-8编码)
-m3u8InputFilePath = "D:/input/m3u8_input.txt"
+m3u8InputFilePath = "/content/m3u8_input.txt"
 # 设置视频保存路径
-saveRootDirPath = "D:/output"
+saveRootDirPath = "/content"
 # 下载出错的m3u8保存文件
-errorM3u8InfoDirPath = "D:/output/error.txt"
+errorM3u8InfoDirPath = "/content/error.txt"
 # m3u8文件、key文件下载尝试次数，ts流默认无限次尝试下载，直到成功
 m3u8TryCountConf = 10
 # 线程数（同时下载的分片数）
